@@ -5,7 +5,10 @@ data/
 secret_ids.txt
 
 # test files
-utils/test.ipynb
+*/test.ipynb
+test.ipynb
 
 # __pycache__ folders
-utils/__pycache__/
+__pycache__/
+*/__pycache__/
+*/*/__pycache__/
