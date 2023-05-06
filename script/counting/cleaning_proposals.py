@@ -12,6 +12,8 @@ def clean_content(content, user_name):
     TO DO
     """
     content = content.replace(f'@{user_name} ', '')
+    raw_content = content
+
     content = ct.clean(content, no_emoji=True, lower=False)
     content = re.sub(r'\(.*?\)', '', content)
 
@@ -24,4 +26,6 @@ def clean_content(content, user_name):
         content = content.replace(punctuation, '\n')
     content = content.replace('\n\n', '\n')
 
-    return content
+    cleaned = bool(raw_content != content)
+
+    return content, cleaned
