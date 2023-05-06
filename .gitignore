@@ -1,1 +1,11 @@
+# local data
 data/
+
+# secrets
+secret_ids.txt
+
+# test files
+utils/test.ipynb
+
+# __pycache__ folders
+utils/__pycache__/
