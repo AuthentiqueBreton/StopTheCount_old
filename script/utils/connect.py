@@ -21,7 +21,7 @@ def get_ids():
             Returns:
                     secret_ids (dict): dict witch contains secret Twitter ids
     """
-    with open('../secret_ids.txt', 'r', encoding='utf8') as file:
+    with open('secrets/secret_ids.txt', 'r', encoding='utf8') as file:
         file_lines = file.readlines()
         secret_ids = {}
         keys = ['consumer_key',
