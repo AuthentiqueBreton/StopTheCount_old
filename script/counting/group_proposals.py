@@ -10,8 +10,17 @@ import jellyfish as jf
 
 LOGGER = logging.getLogger(__name__)
 
-
 def group(proposals, similarity=1):
+    """
+    TO DO
+    """
+    case_grouped = group_case(proposals)
+    if similarity < 1:
+        proposal_counts = group_similarity(case_grouped, similarity)
+    common_counts = assign_common_name(proposal_counts)
+    return common_counts
+
+def group_case(proposals):
     """
     TO DO
     """
@@ -33,25 +42,43 @@ def group(proposals, similarity=1):
             else:
                 proposal_counts[lower_proposal]['alias'][proposals[idx]] = 1
 
-    if similarity > 0:
-        grouped_proposals = list(proposal_counts.keys())
+    return proposal_counts
 
-        for proposal_1 in grouped_proposals:
+def group_similarity(proposal_counts, similarity):
+    """
+    TO DO
+    """
+    proposal_keys = list(proposal_counts.keys())
 
-            for proposal_2 in grouped_proposals:
+    for proposal_1 in proposal_keys:
 
-                if proposal_1 in proposal_counts and proposal_2 in proposal_counts:
+        for proposal_2 in proposal_keys:
 
-                    if len(proposal_1) > 5 and len(proposal_2) > 5 :
+            if proposal_1 in proposal_counts and proposal_2 in proposal_counts:
 
-                        if not bool(re.search(r'\d', proposal_1)) and not bool(re.search(r'\d', proposal_2)):
+                if not bool(re.search(r'\d', proposal_1)) and not bool(re.search(r'\d', proposal_2)):
 
-                            jaro_dist = jf.jaro_similarity(proposal_1, proposal_2)
-                            if similarity <= jaro_dist < 1:
+                    jaro_dist = jf.jaro_similarity(proposal_1, proposal_2)
+                    if similarity <= jaro_dist < 1:
 
-                                LOGGER.debug('%s is similar to %s (%s)', proposal_1, proposal_2, jaro_dist)
-                                proposal_counts[proposal_1]['count'] += proposal_counts[proposal_2]['count']
-                                proposal_counts[proposal_1]['alias'] = proposal_counts[proposal_1]['alias'] | proposal_counts[proposal_2]['alias']
-                                proposal_counts.pop(proposal_2)
+                        LOGGER.debug('%s is similar to %s (%s)', proposal_1, proposal_2, jaro_dist)
+                        proposal_counts[proposal_1]['count'] += proposal_counts[proposal_2]['count']
+                        proposal_counts[proposal_1]['alias'] = proposal_counts[proposal_1]['alias'] | proposal_counts[proposal_2]['alias']
+                        proposal_counts.pop(proposal_2)
 
     return proposal_counts
+
+def assign_common_name(proposal_counts):
+    """
+    TO DO
+    """
+    common_counts = {}
+    proposal_keys = list(proposal_counts.keys())
+
+    for key in proposal_keys:
+        alias = proposal_counts[key]['alias']
+        more_common_alias = max(alias, key=alias.get)
+
+        common_counts[more_common_alias] = proposal_counts[key]['count']
+
+    return common_counts
