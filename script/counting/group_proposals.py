@@ -49,7 +49,7 @@ def group(proposals, similarity=1):
                             jaro_dist = jf.jaro_similarity(proposal_1, proposal_2)
                             if similarity <= jaro_dist < 1:
 
-                                LOGGER.info('%s is similar to %s (%s)', proposal_1, proposal_2, jaro_dist)
+                                LOGGER.debug('%s is similar to %s (%s)', proposal_1, proposal_2, jaro_dist)
                                 proposal_counts[proposal_1]['count'] += proposal_counts[proposal_2]['count']
                                 proposal_counts[proposal_1]['alias'] = proposal_counts[proposal_1]['alias'] | proposal_counts[proposal_2]['alias']
                                 proposal_counts.pop(proposal_2)
