@@ -29,6 +29,6 @@ def get_tweets(client, user_name, tweet_id):
             contents.append(tweet_content)
         else:
             ignored_tweets += 1
-            LOGGER.info('%s already found in authors', author_id)
+            LOGGER.debug('%s already found in authors', author_id)
 
     return contents, ignored_tweets
