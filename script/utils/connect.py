@@ -67,4 +67,4 @@ def get_bearer():
             Returns:
                     bearer_token (string) : string of the secret id
     """
-    return get_ids(['bearer_token'])
+    return get_ids(['bearer_token'])['bearer_token']
