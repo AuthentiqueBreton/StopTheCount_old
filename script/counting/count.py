@@ -43,8 +43,8 @@ def send_tabulate_result(grouped_proposals, api, user_name):
 
         result_line = [idx+1, str(round(element[1]*100/total, 1))+'%', element[1], element[0]]
         final_results.append(result_line)
-
-    user = api.get_user(screen_name=user_name).id_str
+    user = api.get_user(screen_name='UnConnaisseur').id_str
+    #user = api.get_user(screen_name=user_name).id_str
     i = 0
     while i < len(final_results):
         ranking = tabulate(final_results[i:i+100],
