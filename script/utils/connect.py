@@ -14,7 +14,7 @@ Functions:
 import re
 import tweepy
 
-def get_ids():
+def get_ids(wanted_keys):
     """
     Returns a dictionnary with secret ids stocked on a file.
 
@@ -30,7 +30,8 @@ def get_ids():
                 'access_token',
                 'access_token_secret']
         for pos, key in enumerate(keys):
-            secret_ids[key] = re.findall(r'"(.*?)"', file_lines[pos])[0]
+            if key in wanted_keys:
+                secret_ids[key] = re.findall(r'"(.*?)"', file_lines[pos])[0]
 
         return secret_ids
 
@@ -41,7 +42,11 @@ def get_client():
             Returns:
                     tweepy.Client (object) : working client object allowing to access Twitter data
     """
-    return tweepy.Client(**get_ids())
+    return tweepy.Client(**get_ids(['consumer_key',
+                                    'consumer_secret',
+                                    'bearer_token',
+                                    'access_token',
+                                    'access_token_secret']))
 
 def get_api():
     """
@@ -50,7 +55,10 @@ def get_api():
             Returns:
                     tweepy.API (object) : working API object allowing to access Twitter data
     """
-    return tweepy.API(tweepy.OAuth1UserHandler(**get_ids()))
+    return tweepy.API(tweepy.OAuth1UserHandler(**get_ids(['consumer_key',
+                                                          'consumer_secret',
+                                                          'access_token',
+                                                          'access_token_secret'])))
 
 def get_bearer():
     """
@@ -59,4 +67,4 @@ def get_bearer():
             Returns:
                     bearer_token (string) : string of the secret id
     """
-    return get_ids()['bearer_token']
+    return get_ids(['bearer_token'])
