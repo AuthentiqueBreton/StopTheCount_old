@@ -31,6 +31,27 @@ def send_proposals(client, api, user_name, tweet_id, n_proposals=10):
     grouped_proposals = gp.group(extracted_proposals, 0.95)
     send_tabulate_result(grouped_proposals, api, user_name)
 
+def get_proposals_without_api(tweet_url, n_proposals=5):
+    """
+    TO DO
+    """
+    extracted_proposals = []
+    contents = et.get_tweets_by_url(tweet_url)
+    LOGGER.info('Retrieved %s proposals', len(contents))
+    tot_cleaned = 0
+
+    for content in contents:
+        cleaned_content, cleaned = cp.clean_content_no_username(content)
+        if cleaned:
+            tot_cleaned +=1
+        extracted_proposals += parse_content(cleaned_content, n_proposals)
+    modified_proportion = (tot_cleaned/len(contents))*100
+    LOGGER.info('%s%% have been cleaned', round(modified_proportion, 2))
+
+    grouped_proposals = gp.group(extracted_proposals, 0.95)
+    return get_tabulate_result(grouped_proposals)
+
+
 def send_tabulate_result(grouped_proposals, api, user_name):
     """
     TO DO
@@ -43,7 +64,7 @@ def send_tabulate_result(grouped_proposals, api, user_name):
 
         result_line = [idx+1, str(round(element[1]*100/total, 1))+'%', element[1], element[0]]
         final_results.append(result_line)
-    user = api.get_user(screen_name='UnConnaisseur').id_str
+    user = api.get_user(screen_name=user_name).id_str
     #user = api.get_user(screen_name=user_name).id_str
     i = 0
     while i < len(final_results):
@@ -52,6 +73,24 @@ def send_tabulate_result(grouped_proposals, api, user_name):
                            colalign=("center", "center", "center", "left"))
         api.send_direct_message(user, ranking)
         i += 100
+
+def get_tabulate_result(grouped_proposals):
+    """
+    TO DO
+    """
+    total = sum(grouped_proposals.values())
+    sorted_count = sorted(grouped_proposals.items(), key=lambda x:x[1], reverse=True)
+
+    final_results = []
+    for idx, element in enumerate(sorted_count):
+
+        result_line = [idx+1, str(round(element[1]*100/total, 1))+'%', element[1], element[0]]
+        final_results.append(result_line)
+
+    return tabulate(final_results,
+                    headers=["Rang", "%", "Nbr", "Proposition"],
+                    colalign=("center", "center", "center", "left"))
+
 
 def parse_content(content, n_proposals):
     """

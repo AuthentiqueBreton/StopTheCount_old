@@ -1,0 +1,354 @@
+ Rang    %     Nbr   Proposition
+------  ----  -----  ------------------------------------------------------------------------------------------------------------------
+  1     4.2%   36    Feldup
+  2     3.6%   31
+  3     3.4%   29    Joueur du grenier
+  4     3.2%   27    JDG
+  5     3.0%   26    Mister V
+  6     2.9%   25    Amixem
+  7     2.8%   24    The Great Review
+  8     2.5%   21    Squeezie
+  9     2.1%   18    Wankil
+  10    1.3%   11    Le Grand JD
+  11    1.3%   11    Bob Lennon
+  12    1.3%   11    Antoine Daniel
+  13    1.2%   10    Wankil Studio
+  14    1.2%   10    Sheshounet
+  15    1.1%    9    Pfut
+  16    1.1%    9    Wiloo
+  17    0.9%    8    Gotaga
+  18    0.9%    8    Edward
+  19    0.9%    8    LinksTheSun
+  20    0.9%    8    Cyprien
+  21    0.9%    8    Ego
+  22    0.9%    8    Sofyan
+  23    0.8%    7    Chronik Fiction
+  24    0.7%    6    MrBeast
+  25    0.7%    6    Trash
+  26    0.7%    6    Inoxtag
+  27    0.7%    6    Durendal
+  28    0.7%    6    Joyca
+  29    0.7%    6    Mastu
+  30    0.7%    6    Math
+  31    0.7%    6    Notseriou's
+  32    0.7%    6    Math se fait des films
+  33    0.7%    6    Vilebrequin
+  34    0.7%    6    Seb
+  35    0.6%    5    Karim Debbache
+  36    0.6%    5    Etoiles
+  37    0.6%    5    Savun
+  38    0.5%    4    Locklear
+  39    0.5%    4    Tale from the Click
+  40    0.5%    4    Doc Seven
+  41    0.5%    4    Sidemaul
+  42    0.5%    4    Les vidéos de Riles
+  43    0.5%    4    Vzion
+  44    0.5%    4    Poisson Fécond
+  45    0.5%    4    MisterJDay
+  46    0.5%    4    Laupok
+  47    0.4%    3    Papacito
+  48    0.4%    3    Baptiste Marchais
+  49    0.4%    3    Vilbrequin
+  50    0.4%    3    12 parsecs
+  51    0.4%    3    Digidix
+  52    0.4%    3    Colas bim
+  53    0.4%    3    Absolue
+  54    0.4%    3    McFly et Carlito
+  55    0.4%    3    JLTomy
+  56    0.4%    3    Djilsi
+  57    0.4%    3    Guillaume Cassar
+  58    0.4%    3    Mamytwink
+  59    0.4%    3    Didi chandouidoui
+  60    0.2%    2    Josplay
+  61    0.2%    2    Pepperpot team
+  62    0.2%    2    Alt236
+  63    0.2%    2    MisterMV
+  64    0.2%    2    MrAntoineDaniel
+  65    0.2%    2    Carlito
+  66    0.2%    2    Michou
+  67    0.2%    2    Zerator
+  68    0.2%    2    Le Fossoyeur de Films
+  69    0.2%    2    Liv
+  70    0.2%    2    Valwho Artworks
+  71    0.2%    2    Sir Gibsy
+  72    0.2%    2    Aminematue
+  73    0.2%    2    Kombo
+  74    0.2%    2    Durendal1
+  75    0.2%    2    Un max de foot
+  76    0.2%    2    Maxime Biaggi
+  77    0.2%    2    Galax
+  78    0.2%    2    Hugo Delire
+  79    0.2%    2    Popculture
+  80    0.2%    2    Anas
+  81    0.2%    2    Domingo
+  82    0.2%    2    Freeman Sensei
+  83    0.2%    2    Guzz prod
+  84    0.2%    2    Guzz production
+  85    0.2%    2    Pierre croce
+  86    0.2%    2    Talk m'y Football
+  87    0.2%    2    Tibo Inshape
+  88    0.2%    2    Merej
+  89    0.2%    2    Siphano
+  90    0.2%    2    Le Joueur du Grenier
+  91    0.2%    2    Le Troppeur
+  92    0.2%    2    Usul
+  93    0.2%    2    Cyril mp4
+  94    0.2%    2    LeProtagoniste
+  95    0.2%    2    Idreau
+  96    0.2%    2    Iro Sef
+  97    0.2%    2    HortyUnderscore
+  98    0.2%    2    Jiraya
+  99    0.2%    2    Julgane
+ 100    0.2%    2    Sturry
+ 101    0.1%    1    Jack le fou
+ 102    0.1%    1    Balade Mentale
+ 103    0.1%    1    Liechtenstein france
+ 104    0.1%    1    LaPatience
+ 105    0.1%    1    LaPatienceYT
+ 106    0.1%    1    Benny Production
+ 107    0.1%    1    Depielo
+ 108    0.1%    1    Simon Riaux
+ 109    0.1%    1    Interdit
+ 110    0.1%    1    Thaïs d'Escufon
+ 111    0.1%    1    Gueuleton
+ 112    0.1%    1    Le raptor
+ 113    0.1%    1    Mehdi omaïs
+ 114    0.1%    1    One piece passion
+ 115    0.1%    1    Lyes akroun
+ 116    0.1%    1    Ceux et celles dont j'attends les nouvelles vidéos Youtube avec impatience :
+ 117    0.1%    1    Les Gardiens du Cinéma
+ 118    0.1%    1    Dfuse Tech
+ 119    0.1%    1    Les Chroniques du Cinéphile
+ 120    0.1%    1    Laboiserie
+ 121    0.1%    1    Alphadelta06
+ 122    0.1%    1    5 chaînes youtube
+ 123    0.1%    1    et pas une de plus parce que je trouve que le youtubegame devient terriblement plat Et eux sortent du lot
+ 124    0.1%    1    Hugo Délire
+ 125    0.1%    1    Dr Nozman
+ 126    0.1%    1    Squeezie McFly
+ 127    0.1%    1    CinéPop
+ 128    0.1%    1    Cyrille mp4
+ 129    0.1%    1    Wankil mais sur twitch
+ 130    0.1%    1    Sakharu
+ 131    0.1%    1    Dylan chandouineau
+ 132    0.1%    1    P4perback
+ 133    0.1%    1    Horty
+ 134    0.1%    1    Alphacast
+ 135    0.1%    1    Sixen
+ 136    0.1%    1    Océane
+ 137    0.1%    1    Youtube :
+ 138    0.1%    1    Mcskyz
+ 139    0.1%    1    Pas forcément mes tout préférés mais 5 que j’aime bien dans des domaines diversifiés
+ 140    0.1%    1    Adam Bros
+ 141    0.1%    1    Nosterious
+ 142    0.1%    1    Mathieu Sommet
+ 143    0.1%    1    Xi impulse
+ 144    0.1%    1    Revue du monde
+ 145    0.1%    1    Gaelle garcia diaz
+ 146    0.1%    1    Kheiron
+ 147    0.1%    1    Math ce fait des films
+ 148    0.1%    1    Oui je passe ma vie sur yt
+ 149    0.1%    1    What a fail
+ 150    0.1%    1    Arthur the library of Ohara
+ 151    0.1%    1    Nouveau tournoi nouvelles propagandes cette fois on viens pour la victoire
+ 152    0.1%    1    JdG + Bazar du Grenier
+ 153    0.1%    1    BenzaieTV
+ 154    0.1%    1    Julien Chièze
+ 155    0.1%    1    Anas aka le Bledart à l'époque
+ 156    0.1%    1    La Salle Podcast
+ 157    0.1%    1    BlockChain
+ 158    0.1%    1    Edition Capsule
+ 159    0.1%    1    Meetyourmovie
+ 160    0.1%    1    Storygenus
+ 161    0.1%    1    JustHelena
+ 162    0.1%    1    Captain Popcorn
+ 163    0.1%    1    Ascuns
+ 164    0.1%    1    Le Rire Jaune
+ 165    0.1%    1    Le cinématographeur
+ 166    0.1%    1    LoannLV
+ 167    0.1%    1    The Gaming Beaver
+ 168    0.1%    1    Thomas Deseur
+ 169    0.1%    1    Laskoshow
+ 170    0.1%    1    Quentin Westbrook
+ 171    0.1%    1    Cacabox
+ 172    0.1%    1    Tristan
+ 173    0.1%    1    Et bien sûr Karim Debbache
+ 174    0.1%    1    C'est bien juste parce qu'il faut limiter à 5
+ 175    0.1%    1    Crazybomb
+ 176    0.1%    1    ReTake
+ 177    0.1%    1    The great rewiew
+ 178    0.1%    1    Doigby
+ 179    0.1%    1    Great review
+ 180    0.1%    1    Mais surtout Gotaga en fait
+ 181    0.1%    1    Diablox9
+ 182    0.1%    1    EDB Attraction
+ 183    0.1%    1    Theobabac
+ 184    0.1%    1    Master Snakou
+ 185    0.1%    1    Seb du JDG
+ 186    0.1%    1    Palmashow
+ 187    0.1%    1    chronik fiction et les théories de Graham Il y avait aussi Suricate mais ils font plus de vidéos depuis des années
+ 188    0.1%    1    Bugland
+ 189    0.1%    1    SNIR
+ 190    0.1%    1    julien chieze
+ 191    0.1%    1    PoliaTV
+ 192    0.1%    1    Le monde a l’envers
+ 193    0.1%    1    Les Videos de Riles
+ 194    0.1%    1    Contes de Foot
+ 195    0.1%    1    Max de Foot
+ 196    0.1%    1    Music Feelings
+ 197    0.1%    1    Leslinha Luberto
+ 198    0.1%    1    Karelle Vignon Vuillerme
+ 199    0.1%    1    Ce sont cinq de mes préférés
+ 200    0.1%    1    Mr grimes
+ 201    0.1%    1    Lyds
+ 202    0.1%    1    Jamel le chômeur
+ 203    0.1%    1    Worst Premade Ever
+ 204    0.1%    1    Fuze
+ 205    0.1%    1    Intercut
+ 206    0.1%    1    Mac Guffin Maker
+ 207    0.1%    1    Re : Take
+ 208    0.1%    1    Sora
+ 209    0.1%    1    iShowSpeed
+ 210    0.1%    1    Prince
+ 211    0.1%    1    Beaujack gooseman
+ 212    0.1%    1    Ravusssss
+ 213    0.1%    1    Mcfly
+ 214    0.1%    1    Wartek pour la nostalgie
+ 215    0.1%    1    Kameto my ceo le kram
+ 216    0.1%    1    Léo Duff
+ 217    0.1%    1    Valouzz
+ 218    0.1%    1    Inox
+ 219    0.1%    1    Padawamhd
+ 220    0.1%    1    La ligue des nakamas
+ 221    0.1%    1    Mikofficiel
+ 222    0.1%    1    Tkt je t'aime bien
+ 223    0.1%    1    NotNotBrock
+ 224    0.1%    1    Youtube  inox
+ 225    0.1%    1    Twitch  Theguill84
+ 226    0.1%    1    Youtube  Valouzz
+ 227    0.1%    1    Twitch  Ponce
+ 228    0.1%    1    Tikt tok  ghibli archive
+ 229    0.1%    1    Crocodyle
+ 230    0.1%    1    AvaMind
+ 231    0.1%    1    TheGuill84
+ 232    0.1%    1    Clapman
+ 233    0.1%    1    Taka de Voilaroc
+ 234    0.1%    1    Links the Sun
+ 235    0.1%    1    Kameto
+ 236    0.1%    1    Frenchball
+ 237    0.1%    1    Sagiovanna
+ 238    0.1%    1    Le monde de choi
+ 239    0.1%    1    Fastgoodcuisine
+ 240    0.1%    1    David lafarge prime
+ 241    0.1%    1    Ca sera :
+ 242    0.1%    1    Avec un bonus GuzzProductions
+ 243    0.1%    1    Non j’ai trop peur de comment ça va finir ce tournoi
+ 244    0.1%    1    Mr v
+ 245    0.1%    1    Lonni
+ 246    0.1%    1    Beta SquadMr BeastChronik FictionAdem et BilalAminematué
+ 247    0.1%    1    Wil Aime
+ 248    0.1%    1    Grand JD
+ 249    0.1%    1    Riska
+ 250    0.1%    1    Freddy gladieux
+ 251    0.1%    1    Fugu
+ 252    0.1%    1    Doc 7
+ 253    0.1%    1    Le Vincent le vrai
+ 254    0.1%    1    Le Bled’Art
+ 255    0.1%    1    CBGames
+ 256    0.1%    1    Seroths
+ 257    0.1%    1    Maskey
+ 258    0.1%    1    Le chef otaku
+ 259    0.1%    1    Prime time fut
+ 260    0.1%    1    Ibratv
+ 261    0.1%    1    Podcast la Saga
+ 262    0.1%    1    Not Serious
+ 263    0.1%    1    Batmania
+ 264    0.1%    1    La Compagnie
+ 265    0.1%    1    Comics et Calembours
+ 266    0.1%    1    5 c’est chaud
+ 267    0.1%    1    On va dire pas obligatoirement dans l’ordre :
+ 268    0.1%    1    et
+ 269    0.1%    1    Astronogeek
+ 270    0.1%    1    Trashtalk
+ 271    0.1%    1    Ravuuuuuuuussssssss ma poutrelle
+ 272    0.1%    1    Florent Garcia
+ 273    0.1%    1    Service Volée
+ 274    0.1%    1    Aypierre
+ 275    0.1%    1    Étoiles
+ 276    0.1%    1    C'est ça le catch
+ 277    0.1%    1    Ultia
+ 278    0.1%    1    Baghera_Jones
+ 279    0.1%    1    Maghla
+ 280    0.1%    1    LittleBigWhale
+ 281    0.1%    1    Nota Bene
+ 282    0.1%    1    mais y'en a tellement d'autres qui mériteraient de faire parti de la liste
+ 283    0.1%    1    Squeezie a gagné hein
+ 284    0.1%    1    Et Pop Culture évidemment
+ 285    0.1%    1    Kaarmar
+ 286    0.1%    1    Zack Nani
+ 287    0.1%    1    Clément Marcou
+ 288    0.1%    1    Nico Mathieux
+ 289    0.1%    1    Erwan Hingre
+ 290    0.1%    1    Koumo
+ 291    0.1%    1    MrBboy45
+ 292    0.1%    1    Mehdi Maïzi
+ 293    0.1%    1    Christopher Lannes
+ 294    0.1%    1    SargeLeChef
+ 295    0.1%    1    Frère Paul Adrien
+ 296    0.1%    1    Voici mon top 5 de créateur de contenu :
+ 297    0.1%    1    Farod
+ 298    0.1%    1    Kemar
+ 299    0.1%    1    Boxing Academy France
+ 300    0.1%    1    Les tricolores
+ 301    0.1%    1    Jdg kirbendo bronol foozle edward
+ 302    0.1%    1    Cyrus North
+ 303    0.1%    1    Math se fait des filmsWankil StudioMaghlaFildrongCyril MP4
+ 304    0.1%    1    Cyril
+ 305    0.1%    1    Kumbo
+ 306    0.1%    1    Blitzstream
+ 307    0.1%    1    Étienne Bacrot
+ 308    0.1%    1    Kévin tran
+ 309    0.1%    1    TerminalMontage
+ 310    0.1%    1    Hit the road
+ 311    0.1%    1    yoboyroy
+ 312    0.1%    1    Krackonyx
+ 313    0.1%    1    @SsalFay
+ 314    0.1%    1    Ren
+ 315    0.1%    1    Julkazu
+ 316    0.1%    1    Joryech
+ 317    0.1%    1    HighGame_Def
+ 318    0.1%    1    Nicolas Delage
+ 319    0.1%    1    Profession Ganster
+ 320    0.1%    1    Tous sur YouTube
+ 321    0.1%    1    le trompeur
+ 322    0.1%    1    tip Stevens
+ 323    0.1%    1    Gotabor
+ 324    0.1%    1    Si vous ne connaissez pas un des 5 je vous conseille énormément tout ce qu'il font
+ 325    0.1%    1    c'est d'une qualité au dessus de tout le reste
+ 326    0.1%    1    Punky
+ 327    0.1%    1    Meea
+ 328    0.1%    1    Sur Minecraft : "TheGuill84" et "Guep"
+ 329    0.1%    1    Laborap0
+ 330    0.1%    1    Ishowspeed Inoxtag Aminematue Rebeudeter et Polo
+ 331    0.1%    1    Alt 236
+ 332    0.1%    1    Superconerie
+ 333    0.1%    1    High Game Def
+ 334    0.1%    1    Nano
+ 335    0.1%    1    Norman
+ 336    0.1%    1    La ccb ça compte ?
+ 337    0.1%    1    Chef Otaku
+ 338    0.1%    1    Azz l'épouvantail
+ 339    0.1%    1    MaisRomain
+ 340    0.1%    1    John Coogan
+ 341    0.1%    1    Riskas
+ 342    0.1%    1    DrDisrespect
+ 343    0.1%    1    GouvHD
+ 344    0.1%    1    Poisson  fecond
+ 345    0.1%    1    Mr curieux
+ 346    0.1%    1    Et toi pour twitter
+ 347    0.1%    1    Regelegorila
+ 348    0.1%    1    GMK
+ 349    0.1%    1    La chaîne du Geek
+ 350    0.1%    1    La folle Histoire
+ 351    0.1%    1    ExServ
+ 352    0.1%    1    Benjamin Verrechia

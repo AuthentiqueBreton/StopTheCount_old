@@ -48,7 +48,7 @@ stream = MyStream(bearer_token=bearer)
 
 active_rules = stream.get_rules().data
 stream.delete_rules(active_rules)
-#stream.add_rules(tw.StreamRule("@StopTheCountBot from:Pop_Kulture1"))
-stream.add_rules(tw.StreamRule("@StopTheCountBot from:UnConnaisseur"))
+stream.add_rules(tw.StreamRule("@StopTheCountBot from:Pop_Kulture1"))
+#stream.add_rules(tw.StreamRule("@StopTheCountBot from:UnConnaisseur"))
 
 stream.filter(tweet_fields=["referenced_tweets"])

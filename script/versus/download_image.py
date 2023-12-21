@@ -3,7 +3,7 @@
 """
 TO DO
 """
-
+import time
 from io import BytesIO
 from tqdm import tqdm
 from PIL import Image
@@ -19,7 +19,7 @@ def get_images(list_looking_for, hint=None):
     TO DO
     """
     options = webdriver.ChromeOptions()
-    #options.add_argument('headless')
+    options.add_argument('headless')
     options.add_argument("--user-data-dir=C:/Users/Nicolas/AppData/Local/Google/Chrome/User Data")
     options.add_argument("--profile-directory=Default")
     options.add_argument("--window-size=2560,1440")
@@ -51,11 +51,12 @@ def generate_url(looking_for, hint):
             '&rs=typo_auto_original&auto_correction_disabled=true')
     return url
 
-def get_link(driver, url, num_results=15):
+def get_link(driver, url, num_results=20):
     """
     TO DO
     """
     driver.get(url=url)
+    time.sleep(5)
     wait = WebDriverWait(driver, 10)
     css_selector = "img.hCL.kVc.L4E.MIw"
 
@@ -95,7 +96,7 @@ def link_and_file_verification(urls):
             image_data = response.content
             with Image.open(BytesIO(image_data)) as img:
                 width, height = img.size
-                if 0.50 < width/height < 0.75:
+                if 0.55 < width/height < 0.75:
                     return response
 
     url = 'https://i.pinimg.com/564x/6e/bf/a6/6ebfa6babb801c4981571b5636764a5d.jpg'
